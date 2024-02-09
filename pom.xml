@@ -51,6 +51,13 @@
             <organizationUrl>https://github.com/fmcejudo</organizationUrl>
             <timezone>UTC</timezone>
         </developer>
+        <developer>
+            <name>Nikolaos Vastardis</name>
+            <email>Nikolaos.Vastardis@gla-rad.com</email>
+            <organization>gla-rad</organization>
+            <organizationUrl>https://github.com/gla-rad</organizationUrl>
+            <timezone>UTC</timezone>
+        </developer>
     </developers>
 
     <issueManagement>
@@ -317,14 +324,14 @@
     </profiles>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>grad</id>
+            <url>https://rnavlab.gla-rad.org/mvn/repository/grad/</url>
         </repository>
+        <snapshotRepository>
+            <id>grad-snapshots</id>
+            <url>https://rnavlab.gla-rad.org/mvn/repository/grad-snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <scm>
